@@ -85,8 +85,8 @@ export default {};
     display: flex;
     margin-bottom: 0.09rem;
     .cover {
-      width: 1.49rem;
-      height: 1.49rem;
+      width: 14.67vw;
+      height: 14.67vw;
     }
     .detail {
       display: flex;

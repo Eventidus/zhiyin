@@ -45,6 +45,7 @@
     <Swiper class="swiper"></Swiper>
     <Song class="songRec"></Song>
     <SongList></SongList>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -52,13 +53,17 @@
 import Swiper from "../components/Swiper.vue";
 import Song from "../components/Song.vue";
 import SongList from "../components/SongList.vue";
+import Footer from "../components/Footer.vue";
 </script>
 
 <style lang="less" scoped>
 @import "../assets/fonts/font.css";
 .home {
-  background-color: #292c39;
-  height: 5.12rem;
+  // background-color: #292c39;
+  background-image: url(../assets/images/headerBg.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 57.33vw;
+  height: 6.63rem;
   position: relative;
   header {
     display: flex;
@@ -189,8 +194,8 @@ import SongList from "../components/SongList.vue";
   }
   .swiper {
     margin-top: 0.533333rem;
-    width: 9.2rem;
-    height: 3.92rem;
+    width: 92.8vw;
+    height: 39.47vw;
   }
 }
 </style>

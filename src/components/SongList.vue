@@ -26,7 +26,7 @@
       </div>
       <div class="list">
         <img src="../assets/images/6.png" alt="" />
-        <p>国内大Diva｜听罢跪拜在姐姐的石</p>
+        <p>国内大Diva｜听罢跪拜在姐姐的石榴裙下</p>
       </div>
     </div>
   </div>
@@ -76,10 +76,15 @@ export default {};
       top: 0.1rem;
     }
     p {
-      font-family: SourceHanSansCN;
+      font-family: MiSans;
       color: #171717;
       font-size: 0.32rem;
       margin-top: 0.13rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 2;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
     }
   }
 }
