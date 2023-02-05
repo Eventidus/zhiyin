@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "HanSans";
+  src: url("./HanSans.otf");
+}
+@font-face {
+  font-family: "MiSans";
+  src: url("./MiSans-Demibold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "SourceHanSansCN";
+  src: url("./SourceHanSansCN.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "PingFangBold";
+  src: url("./PingFangSCBold/PingFang-SC-Bold.ttf"),
+    url("./PingFangSCBold/PingFang-SC-Bold.otf"),
+    url("./PingFangSCBold/PingFang-SC-Bold.eot"),
+    url("./PingFangSCBold/PingFang-SC-Bold.woff");
+  font-weight: normal;
+  font-style: normal;
+}
