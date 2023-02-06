@@ -50,6 +50,16 @@ export default {};
         width: 11.6vw;
         height: 11.6vw;
         margin-left: 3.67vw;
+        // animation: rotate 2s linear infinite;
+
+        // @keyframes rotate {
+        //   0% {
+        //     transform: rotate(0deg);
+        //   }
+        //   100% {
+        //     transform: rotate(360deg);
+        //   }
+        // }
       }
       .cover {
         width: 8.4vw;
