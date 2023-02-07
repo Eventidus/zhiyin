@@ -86,7 +86,6 @@ import Footer from "../components/Footer.vue";
       --inline-padding-of-input: 1.2em;
       --gap: 0.9rem;
     }
-    /* form style */
     .form {
       font-size: 0.42rem;
       display: flex;
@@ -98,7 +97,6 @@ import Footer from "../components/Footer.vue";
       margin-left: 0.37rem;
       top: -0.08rem;
     }
-    /* a fancy bg for showing background and border when focus. */
     .fancy-bg {
       position: absolute;
       width: 100%;
@@ -110,7 +108,6 @@ import Footer from "../components/Footer.vue";
       pointer-events: none;
       box-shadow: rgba(0, 0, 0, 0.16) 0rem 0.026667rem 0.106667rem;
     }
-    /* label styling */
     label {
       width: 100%;
       height: 1.066667rem;

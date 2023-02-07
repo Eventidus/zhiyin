@@ -1,7 +1,7 @@
 <template>
   <div class="songRec">
     <div class="title">
-      <span>歌曲推荐</span>
+      <span @click="goHome">歌曲推荐</span>
     </div>
     <div class="songlist">
       <div class="song">
@@ -53,7 +53,15 @@
 </template>
 
 <script>
-export default {};
+import { RouterLink, RouterView } from "vue-router";
+export default {
+  name: "SongRec",
+  methods: {
+    goHome() {
+      this.$router.push({ name: "songRec" });
+    },
+  },
+};
 </script>
 
 <style lang="less" scoped>
