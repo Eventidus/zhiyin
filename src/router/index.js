@@ -1,27 +1,22 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "../views/Home.vue";
-import Playback from "../views/Playback.vue";
-import SongRec from "../views/SongRec.vue";
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: "/",
       name: "home",
-      component: Home,
-      meta: {
-        isShow: true,
-      },
+      component: () => import("@/views/Home.vue"),
     },
     {
       path: "/playback",
       name: "playback",
-      component: Playback,
+      component: () => import("@/views/Playback.vue"),
     },
     {
       path: "/songRec",
       name: "songRec",
-      component: SongRec,
+      component: () => import("@/views/SongRec.vue"),
     },
   ],
 });

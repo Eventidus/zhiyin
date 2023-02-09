@@ -5,8 +5,7 @@ import SongRec from "./views/Songrec.vue";
 </script>
 
 <template>
-  <Home v-show="$route.meta.isShow"></Home>
-  <SongRec></SongRec>
+  <router-view></router-view>
 </template>
 
 <style scoped lang="less"></style>
