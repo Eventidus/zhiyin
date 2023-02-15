@@ -1,12 +1,12 @@
 <template>
   <div class="footer">
-    <div class="top">
+    <div class="top" @click="playback">
       <div class="light">
         <img src="../assets/images/records.png" alt="" class="record" />
         <img src="../assets/images/recordCover.png" alt="" class="cover" />
       </div>
       <p>漂洋过海来看你</p>
-      <div class="right">
+      <div class="right" @click.stop>
         <img src="../assets/images/stop.png" alt="" class="play" />
         <img src="../assets/images/playlist.png" alt="" class="list" />
       </div>
@@ -24,8 +24,12 @@
   </div>
 </template>
 
-<script>
-export default {};
+<script setup>
+import { useRouter } from "vue-router";
+const router = useRouter();
+function playback() {
+  router.push({ name: "playback" });
+}
 </script>
 
 <style lang="less" scoped>

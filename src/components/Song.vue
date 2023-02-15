@@ -52,16 +52,12 @@
   </div>
 </template>
 
-<script>
-import { RouterLink, RouterView } from "vue-router";
-export default {
-  name: "SongRec",
-  methods: {
-    goHome() {
-      this.$router.push({ name: "songRec" });
-    },
-  },
-};
+<script setup>
+import { useRouter } from "vue-router";
+const router = useRouter();
+function goHome() {
+  router.push({ name: "songRec" });
+}
 </script>
 
 <style lang="less" scoped>
